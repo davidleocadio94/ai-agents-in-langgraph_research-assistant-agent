@@ -61,7 +61,27 @@ cp .env.example .env
 ### Run Locally
 
 ```bash
+# Set your API keys
+export OPENAI_API_KEY=your-openai-key
+export TAVILY_API_KEY=your-tavily-key
+
+# Run the app
 python app.py
+```
+
+Open http://localhost:7860 in your browser.
+
+### Run with Docker
+
+```bash
+# Build the image
+docker build -t research-assistant-agent .
+
+# Run the container
+docker run -p 7860:7860 \
+  -e OPENAI_API_KEY=your-openai-key \
+  -e TAVILY_API_KEY=your-tavily-key \
+  research-assistant-agent
 ```
 
 Open http://localhost:7860 in your browser.
