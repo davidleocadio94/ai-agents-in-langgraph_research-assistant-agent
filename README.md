@@ -1,14 +1,3 @@
----
-title: Research Assistant Agent
-emoji: 🔍
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-sdk_version: 5.16.0
-app_file: app.py
-pinned: false
----
-
 # Research Assistant Agent
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-HuggingFace%20Spaces-blue)](https://huggingface.co/spaces/davidleocadio94DLAI/ai-agents-in-langgraph_research-assistant-agent)
